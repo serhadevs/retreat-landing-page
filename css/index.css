@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url("/images/background/retreat_bg.jpg");
+    background: url("https://wallpapercave.com/dwp1x/wp2595592.jpg");
+    /* background-image: url("/images/background/retreat_bg.jpg"); */
     background-size: 100%;
     background-repeat: no-repeat;
     
