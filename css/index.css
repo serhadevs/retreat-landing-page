@@ -74,7 +74,8 @@
 }
 
 .event-date{
-    background: rgba(255,255,255, 0.7);
+    background: rgba(0, 71, 171, 0.8);
+    color:#fff;
     display:flex;
     margin-top:5vh;
     max-width:27%;
@@ -98,7 +99,7 @@
 }
 
 .agenda-button{
-    width:100%;
+    width:120%;
     height:5vh;
     font-size:20px;
     /* font-weight:bold; */
