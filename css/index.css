@@ -58,7 +58,7 @@
 
 .vert-line{
     background:#4cc9f0;
-    height:18vh;
+    height:22vh;
     width:0.5%;
     float:left;
     margin-right:2%;
@@ -108,7 +108,7 @@
 
 .agenda{
     /* margin-top:43vh; */
-    background: #03045e;
+    background: #023e8a;
     color:#fff;
     /* padding-bottom:100px; */
 }
@@ -146,8 +146,11 @@
 }
 
 .agenda-expandable{
-    width:25%;
-    margin-left:5%;
+    /* width:25%;
+    margin-left:5%; */
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .agenda-expandable-content{
@@ -186,12 +189,12 @@ iframe{
 }
 
 .venue{
-    background-color: #023e8a;
+    background-color: #03045e;
     color:#fff;
 }
 
 .guest-speaker{
-    background-color:#03045e;
+    background-color:#023e8a;
     color:#fff;
 }
 
@@ -251,13 +254,15 @@ iframe{
     height:45vh;
 }
 .agenda-image{
-    width:70%;
-    margin-left:20px;
+    width:100%;
+    /* margin-left:20px; */
+    /* margin-bottom:30px; */
 }
 
 .agenda-image img{
     width:40%;
-    margin-left:20px;
+    margin-bottom:30px;
+    /* margin-left:20px; */
 }
 
 .agenda-time{
@@ -282,7 +287,7 @@ iframe{
 }
 
 .previous-retreats{
-    background-color: #023e8a;
+    background-color: #03045e;
     color:#fff;
     padding-bottom:40px;
 }
@@ -358,4 +363,10 @@ iframe{
     .slider{
         height: 400px;
     }
+}
+
+.welcome-message{
+    text-align:center;
+    background: #03045e;
+    color:#fff;
 }
