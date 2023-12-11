@@ -37,3 +37,13 @@ function agenda(e){
     }
     // alert("test");
 }
+
+function navbar(){
+    var check_nav = document.querySelector("input[name=nav-checkbox]");
+
+    if(check_nav.checked){
+        document.getElementById("nav-menu").style.display="block";
+    }else{
+        document.getElementById("nav-menu").style.display="none";
+    }
+}

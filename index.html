@@ -15,7 +15,7 @@
           <div class="nav-image">
             <img src="images/logos/serha_logo.png" alt="" class="nav-logo" />
           </div>
-          <div class="nav-menu">
+          <div class="nav-menu" id="nav-menu">
             <ul class="nav-links">
               <li><a href="#agenda">Agenda</a></li>
               <li><a href="#venue_information">Venue Information</a></li>
@@ -24,12 +24,20 @@
               <li><a href="#sponsors">Sponsors</a></li>
             </ul>
           </div>
+          <div class="nav-hamburger">
+            <input type="checkbox" name="nav-checkbox" id="nav-checkbox" onchange="navbar()">
+            <label for="nav-checkbox">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+            </label>
+          </div>
         </div>
         <div class="welcome">
           <h2>Welcome</h2>
           <div class="vert-line"></div>
           <div class="event-name">
-            South East Regional Health Authority Board of Directors' Strategic Management Retreat 2024,
+            <span class="mobile-serha">SERHA's</span><span class="serha-desktop">South East Regional Health Authority</span> Board of Directors' Strategic Management Retreat 2024,
           </div>
           <div class="theme">
             Theme: Right Care at the Right Time: Expanding Access to Quality Healthcare Delivery across the Region
