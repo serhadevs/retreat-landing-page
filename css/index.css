@@ -391,8 +391,9 @@ iframe{
 
     .event-name, .theme{
         font-weight:900;
-        color:#fff;
+        /* color:#0437F2; */
         font-size:25px;
+        text-shadow:1.5px 1.5px 1.5px black;
     }
 
     .vert-line{
@@ -594,9 +595,17 @@ iframe{
     }
 
     .top-section{
+        background-image : none;
+        background-color: rgba(31, 81, 255, 0.5);
+    }
+
+    .background-proper{
         background-image : url("../images/background/mobile_bg.jpg");
     }
 
+    .event-date{
+        background:rgba(70, 130, 180, 0.98);
+    }
 }
 
 .welcome-message{
