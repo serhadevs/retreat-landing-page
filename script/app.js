@@ -15,6 +15,7 @@ prev.onclick = function(){
     reloadSlider();
 }
 let refreshInterval = setInterval(()=> {next.click()}, 3000);
+
 function reloadSlider(){
     slider.style.left = -items[active].offsetLeft + 'px';
     // 
@@ -24,8 +25,6 @@ function reloadSlider(){
 
     clearInterval(refreshInterval);
     refreshInterval = setInterval(()=> {next.click()}, 3000);
-
-    
 }
 
 dots.forEach((li, key) => {

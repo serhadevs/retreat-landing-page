@@ -35,15 +35,20 @@ function agenda(e){
             document.getElementById('agenda-content-2').style.display="none";
         } 
     }
-    // alert("test");
 }
 
-function navbar(){
-    var check_nav = document.querySelector("input[name=nav-checkbox]");
+function navbarShow(){
+    const x = document.querySelector('.nav-x-svg');
+    const y = document.querySelector('.nav-hamburger-svg');
+    document.getElementById("nav-menu").style.display = "block";
+    y.style.display="none";
+    x.style.display="block";
+}
 
-    if(check_nav.checked){
-        document.getElementById("nav-menu").style.display="block";
-    }else{
-        document.getElementById("nav-menu").style.display="none";
-    }
+function navbarHide(){
+    const x = document.querySelector('.nav-x-svg');
+    const y = document.querySelector('.nav-hamburger-svg');
+    document.getElementById("nav-menu").style.display = "none";
+    y.style.display="block";
+    x.style.display="none";
 }
