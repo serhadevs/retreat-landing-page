@@ -592,6 +592,9 @@ iframe{
 /* .show ~ .welcome-container{
     opacity:1;
 } */
+.welcome{
+    animation: animateFromSide 2s ease;
+}
 
 @keyframes animateFromSide{
     from{ transform:translateX(-300%)}
@@ -607,6 +610,8 @@ iframe{
     from {transform:translateX(300%)}
     to{transform:translateX(0);}
 }
+
+
 
 @media screen and (max-width: 768px){
     .slider{
