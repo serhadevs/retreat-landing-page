@@ -611,15 +611,17 @@ iframe{
     to{transform:translateX(0);}
 }
 
-
-
 @media screen and (max-width: 768px){
     .slider{
         height: 400px;
     }
 
+   .nav-logo{
+        padding-top:0px;
+   }
+
     /* .header{
-        min-height:15vh;
+        min-height:12vh;
     } */
 
     .nav-menu{
