@@ -41,15 +41,22 @@ html{
     padding:0; */
 }
 
+.nav-image{
+    width:10%;
+    padding-left:10%;
+    text-align:left
+}
+
 .nav-image img{
-    width:8%;
-    float:left;
-    margin-left:10%;
+    width:80%;
+    /* margin-left:10%; */
     padding-top:30px;
 }
 
 .nav-menu{
-    padding-top:50px
+    width:80%;
+    padding-top:50px;
+    text-align:center;
 }
 
 .nav-links li{
@@ -69,6 +76,7 @@ html{
 .header{
     min-height:20vh;
     text-align:center;
+    display:flex;
 }
 
 .welcome{
@@ -261,11 +269,11 @@ iframe{
     background:#00b4d8;
     width:80%;
     text-align:center;
-    font-size:30px;
+    font-size:25px;
     font-weight:bold;
     font-style:italic;
-    height:6vh;
-    line-height:6vh;
+    min-height:6vh;
+    /* line-height:6vh; */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     /* margin-left:auto;
@@ -555,7 +563,7 @@ iframe{
     margin-left:auto;
     margin-right:auto;
     font-size:18px;
-    text-align:center;
+    text-align:left;
     line-height:30px;
 }
 
@@ -653,6 +661,8 @@ iframe{
         padding-top:0vh;
         padding-left:0%;
         text-align:center;
+        /* text-align: justify;
+  text-justify: inter-word; */
         min-height:15vh;
     }
 
@@ -661,7 +671,9 @@ iframe{
     }
 
     .nav-image{
+        width:20%;
         text-align:left;
+        padding-left:5%;
     }
     .mobile-serha{
         display:inline;
@@ -675,46 +687,17 @@ iframe{
         justify-content:space-between;
         align-items:center;
         display:flex;
+        min-height:20vh;
     }
 
     .nav-image img{
-        width:40%;
-        float:none;
+        width:100%;
+        /* float:none; */
         margin-left:0%;
         padding-top:20px;
     }
 
-    .event-date .left{
-        width:100%;
-        text-align:center;
-        margin-left:0;
-        margin-bottom:0;
-    }
-
-    .event-date .right{
-        text-align:center;
-    }
-
-    .event-date{
-        min-width:80%;
-        margin-top:3vh;
-        flex-direction:column;
-    }
-
-    .event-date .left p{
-        font-size:15px;
-        width:90%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:2vh;
-        text-transform:uppercase;
-        line-height:25px;
-        color:#fff;
-    }
-
-    .event-date .left h2{
-        font-size:20px;
-    }
+    
 
     .agenda-button{
         width:80%;
@@ -797,11 +780,8 @@ iframe{
         border-radius:10px;
         position:absolute;
         z-index:1;
-        /* margin-left:10%; */
-        margin-top:30vh;
+        margin-top:40vh;
         width:100%;
-        /* margin-left:auto;
-        margin-right:auto; */
         
     }
 
@@ -862,8 +842,6 @@ iframe{
     }
 
     .counter{
-        /* max-width:80%; */
-        /* flex-wrap:wrap; */
         align-items:center;
         background:transparent;
         margin-left:auto;
@@ -881,19 +859,13 @@ iframe{
     .counter-header{
         display:none;
     }
-    .welcome-text{
-        width:100%;
-    }
+    
 
     .counter-numbers{
         width:50%;
-        /* text-align:right; */
         font-size:40px;
     }
 
-    /* .counter-name{ */
-        /* display:none; */
-    /* } */
 
     .counter-container{
         margin-left:0%;
@@ -927,6 +899,56 @@ iframe{
     .welcome-list{
         width:100%;
     }
+
+    /* FIx without counter */
+
+    .counter-container{
+        display:none;
+    }
+
+    .welcome-text{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        /* width:100% */
+    }
+
+    .event-date .left{
+        width:100%;
+        text-align:center;
+        margin-left:0;
+        margin-bottom:0;
+    }
+
+    .event-date .right{
+        text-align:center;
+    }
+
+    .event-date{
+        min-width:80%;
+        margin-top:8vh;
+        /* margin-top:3vh; */
+        flex-direction:column;
+    }
+
+    .event-date .left p{
+        font-size:15px;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:2vh;
+        text-transform:uppercase;
+        line-height:25px;
+        color:#fff;
+    }
+
+    .event-date .left h2{
+        font-size:20px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    
 }
 
 .welcome-message{
