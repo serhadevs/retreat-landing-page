@@ -110,12 +110,13 @@ html{
 }
 
 .event-date{
-    background: rgba(0, 71, 171, 0.8);
+    /* background: rgba(0, 71, 171, 0.8); */
+    background:rgba(70, 130, 180, 0.98);
     color:#fff;
     display:flex;
-    margin-top:5vh;
-    max-width:27%;
-    /* width:relative; */
+    margin-top:10vh;
+    min-width:27%;
+    max-width:30%;
     margin-left:10%;
     border-radius:10px;
     min-height:12vh;
@@ -130,12 +131,14 @@ html{
 }
 
 .event-date .right{
-    float:left;
+    width:50%;
+    text-align:center;
+    /* float:left; */
     /* width:35%; */
 }
 
 .agenda-button{
-    width:120%;
+    width:80%;
     height:5vh;
     font-size:20px;
     /* font-weight:bold; */
@@ -921,6 +924,7 @@ iframe{
     }
 
     .event-date .right{
+        width:100%;
         text-align:center;
     }
 
@@ -956,4 +960,3 @@ iframe{
     background: #03045e;
     color:#fff;
 }
-
